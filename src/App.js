@@ -8,6 +8,14 @@ import Input from './Input';
 import { getSecretWord } from './actions';
 
 export class UnconnectedApp extends Component {
+    /**
+     * @method componentDidMount
+     * @returns {undefined}
+     */
+    componentDidMount() {
+        // get the secret word
+        this.props.getSecretWord();
+    }
 
     render() {
         return (
