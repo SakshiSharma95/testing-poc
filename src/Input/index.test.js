@@ -94,4 +94,8 @@ describe('`guessWord` action creator', () => {
         const guessWordCallCount = guessWordMock.mock.calls.length;
         expect(guessWordCallCount).toBe(1);
     });
+    test('calls `guessWord with input value as argument`', () => {
+        const guessWordArg = guessWordMock.mock.calls[0][0];
+        expect(guessWordArg).toBe(guessedWord);
+    });
 });
