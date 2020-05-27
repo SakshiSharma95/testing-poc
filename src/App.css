@@ -1,0 +1,37 @@
+.container {
+    margin-top: 60px;
+    width: 500px;
+}
+
+.sec-heading {
+    font-size: 16px;
+}
+
+.sec-heading span {
+    font-weight: bold;
+}
+
+input#word-guess {
+    padding: 6px;
+    margin-right: 10px;
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+.btn-primary {
+    margin-top: -5px;
+    padding: 8px 20px;
+}
+
+.component-guessed-word {
+    margin-top: 10px;
+}
+
+.table {
+    margin-bottom: 20px;
+    border: 2px solid #ddd;
+}
+
+.alert-success {
+    margin-top: 10px;
+}

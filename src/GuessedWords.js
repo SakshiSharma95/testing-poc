@@ -32,7 +32,7 @@ const GuessedWords = (props) => {
     }
 
     return (
-        <div data-test='component-guessed-word'>
+        <div className={'component-guessed-word'}  data-test='component-guessed-word'>
             {contents}
         </div>
     );
